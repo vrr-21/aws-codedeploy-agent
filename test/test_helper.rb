@@ -1,3 +1,6 @@
+require 'simplecov'
+SimpleCov.start
+
 # encoding: UTF-8
 $:.unshift "lib"
 Gem.use_paths(nil, Gem.path << "vendor")
